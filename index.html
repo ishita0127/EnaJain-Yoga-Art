@@ -2,28 +2,62 @@
 <html>
 <head>
 	<title>Ena Jain</title>
+	<style>
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+</style>
 </head>
-<body center>
+<body style="background-color: #f1ebbb">
+	<center>
 	<h1>Ena Jain</h1>
 	<h3>Yoga Instructor and Artist</h3>
+	
 	<hr>
 	<div>
-		<table>
-			<h4>Yoga</h4>
-	<a href="yoga.html"> 
-		<img src="Images/Yoga.png" width="500px"; height="500px">
-	</a>
-	<hr>
-	<h4>Art Work</h4>
-	<a href="art.html">
-		<img src="Images/Art.png" width="500px"; height="500px">
-	</a>
-
-		</table>
-	
+			
 	
 	</div>
 	
 
+	<div class="row">
+  <div class="column">
+  	<h2 style="color: #45046A">Yoga</h2>
+	<a href="yoga.html"> 
+		<img src="Images/Yoga.png" width="500px"; height="500px">
+	</a>
+  </div>
+  <div class="column">
+    <h2 style="color: #45046A">Art Work</h2>
+	<a href="art.html">
+		<img src="Images/Art.png" width="500px"; height="500px">
+	</a>
+   
+  </div>
+ 
+</div>
+
+ <hr>
+</center>
+	
+
 </body>
 </html>
+
+
+
+
+
